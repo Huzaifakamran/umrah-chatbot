@@ -8,7 +8,6 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatOpenAI
 from htmlTemplates import css,bot_template,user_template
 import os
-import openai
 
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
